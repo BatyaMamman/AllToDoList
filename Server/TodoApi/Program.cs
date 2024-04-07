@@ -40,11 +40,11 @@ builder.Services.AddCors(p => p.AddPolicy("corsapp", builder =>
         builder.WithOrigins("*").AllowAnyMethod().AllowAnyHeader();
     }));
 var app = builder.Build();//משתנה לפעולות
-if (app.Environment.IsDevelopment())
-{
+// if (app.Environment.IsDevelopment())
+// {
     app.UseSwagger();
     app.UseSwaggerUI();
-}
+// }
 app.UseSwagger(options =>
 {
     options.SerializeAsV2 = true;
@@ -101,4 +101,5 @@ app.MapDelete("/todoitems/{id}", async (int Id, ToDoDbContext Db) =>
     return Results.NotFound();
 });
 
+app.MapGet("/", () => "Api is Running");
 app.Run();
