@@ -36,7 +36,7 @@
               "RelativeDocumentMoniker": "Dockerfile",
               "ToolTip": "C:\\\u05E4\u05E8\u05E7\u05D8\u05D9\u05E7\u05D5\u05D3\\\u05E4\u05E8\u05E7\u05D8\u05D9\u05E7\u05D5\u05D34\\Project\\Server\\TodoApi\\Dockerfile",
               "RelativeToolTip": "Dockerfile",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "ViewState": "AQIAAAkAAAAAAAAAAAAAAA0AAAAQAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001001|",
               "WhenOpened": "2024-04-05T08:35:51.33Z",
               "EditorCaption": ""
@@ -51,8 +51,7 @@
               "RelativeToolTip": "ToDoDbContext.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-03-27T21:37:25.871Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-03-27T21:37:25.871Z"
             },
             {
               "$type": "Document",
